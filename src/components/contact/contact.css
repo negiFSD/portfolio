@@ -1,0 +1,88 @@
+.c {
+  height: 100vh;
+  position: relative;
+}
+.c-bg {
+  width: 20px;
+  height: 100vh;
+  background-color: rgb(107, 197, 107);
+  position: absolute;
+}
+.c-wrapper {
+  padding: 50px;
+  display: flex;
+}
+.c-left {
+  flex: 1;
+}
+.c-right {
+  flex: 1;
+}
+.c-title {
+  font-size: 60px;
+  width: 80%;
+}
+.c-info-item {
+  display: flex;
+  align-items: center;
+  margin: 40px 0px;
+  font-weight: 400;
+}
+.c-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+.c-desc {
+  padding-top: 15px;
+  font-weight: 400;
+}
+form {
+  margin-top: 20px;
+}
+input {
+  width: 50%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid rgb(48, 47, 47);
+  margin: 10px, 0px;
+  padding-left: 10px;
+  font-size: 14px;
+}
+textarea {
+  width: 100%;
+  margin: 20px 0px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+button {
+  border: none;
+  padding: 15px;
+  background-color: rgb(107, 197, 107);
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-result {
+  margin-top: 10px;
+  padding: 20px;
+  background-color: rgb(107, 197, 107);
+
+  color: black;
+}
+
+@media screen and (max-width: 540px) {
+  .c-wrapper {
+    flex-direction: column;
+    padding: 0px 50px;
+  }
+  .c-title {
+    font-size: 30px;
+  }
+  .c-info-item {
+    margin: 20px 0px;
+    width: 100%;
+  }
+}
