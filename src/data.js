@@ -5,7 +5,7 @@ import react from "../src/img/react.png"
 import mongo from "../src/img/mongo.png"
 import git from "../src/img/git.png"
 
-
+let testvar = 0;
 
 export const products = [
     {
