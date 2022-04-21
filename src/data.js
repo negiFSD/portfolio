@@ -11,31 +11,31 @@ export const products = [
     {
         id: 1,
         img: html,
-        link: 'website-link'
+        link: 'https://developer.mozilla.org/en-US/docs/Web/HTML'
     },
     {
         id: 2,
         img: css,
-        link: 'website-link'
+        link: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
     },
     {
         id: 3,
         img: javascript,
-        link: 'website-link'
+        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
     },
     {
         id: 4,
         img: react,
-        link: 'website-link'
+        link: 'https://reactjs.org/'
     },
     {
         id: 5,
         img: mongo,
-        link: 'website-link'
+        link: 'https://www.mongodb.com/'
     },
     {
         id: 6,
         img: git,
-        link: 'website-link'
+        link: 'https://git-scm.com/'
     },
 ]
