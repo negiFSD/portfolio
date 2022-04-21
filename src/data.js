@@ -5,12 +5,13 @@ import react from "../src/img/react.png"
 import mongo from "../src/img/mongo.png"
 import git from "../src/img/git.png"
 
-let testvar = 0;
+
 
 export const products = [
     {
         id: 1,
         img: html,
+        prop: 'single',
         link: 'https://developer.mozilla.org/en-US/docs/Web/HTML'
     },
     {

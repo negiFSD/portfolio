@@ -1,6 +1,8 @@
 import React from "react";
 import "./product.css";
 
+let productTest = 'second'
+
 function Product({ img, link }) {
   return (
     <div className="p">

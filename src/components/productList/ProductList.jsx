@@ -3,6 +3,8 @@ import "./productList.css";
 import Product from "../product/Product";
 import { products } from "../../data";
 
+let productListTest = 'third';
+
 function ProductList() {
   return (
     <div className="pl">
